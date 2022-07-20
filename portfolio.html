@@ -310,11 +310,11 @@
     <!-- Подвал -->
     <footer class="footer">
       <div class="container">
-        <a href="./index.html" lang="en" class="logo"><span class="logo-accent">Web</span>Studio</a>
+        <div class="footer-nav">
+          <a href="./index.html" lang="en" class="logo"
+            ><span class="logo-accent">Web</span>Studio</a
+          >
 
-        <strong class="join-phrase">присоединяйтесь</strong>
-
-        <div class="footer-stroke">
           <address class="address">
             <ul class="address-list">
               <li class="address-item">
@@ -334,6 +334,10 @@
               </li>
             </ul>
           </address>
+        </div>
+
+        <div class="join">
+          <strong class="join-phrase">присоединяйтесь</strong>
 
           <ul class="social-networks">
             <li class="social-networks-item">
@@ -361,6 +365,22 @@
               ></a>
             </li>
           </ul>
+        </div>
+
+        <div class="subscription">
+          <strong class="join-phrase">Подпишитесь на рассылку</strong>
+
+          <form class="footer-form">
+            <label class="footer-label">
+              <input class="footer-input" type="email" name="email" placeholder="E-mail" />
+            </label>
+            <button class="button footer-button" type="submit">
+              Подписаться
+              <svg class="footer-button-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-send"></use>
+              </svg>
+            </button>
+          </form>
         </div>
       </div>
     </footer>
